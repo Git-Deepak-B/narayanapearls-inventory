@@ -20,7 +20,7 @@
   <link rel="shortcut icon" href="../../images/favicon.png" />
 </head>
 
-<body>
+<body class="sidebar-icon-only">
   <div class="container-scroller">
     <!-- partial:../../partials/_navbar.html -->
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
@@ -836,180 +836,241 @@
           </ul>
         </nav>
         <!-- partial -->
-        <div class="content-wrapper">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="card">
-                <div class="card-body">
-                  <div class="faq-section">
-                    <div class="container-fluid bg-success py-2">
-                      <p class="mb-0 text-white">Section 1</p>
-                    </div>
-                    <div id="accordion" role="tablist" aria-multiselectable="true" class="accordion">
-                        <div class="card">
-                            <div class="card-header" role="tab" id="headingOne">
-                                <h5 class="mb-0">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    How many instances of Lorum Ipsum usage can be found on the web?
-                                    </a>
-                                </h2>
-                            </div>
-                            <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                                    on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
-                                    Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        <div class="content-wrapper">            
+            <div class="row">
+                <div class="col-lg-9 grid-margin stretch-card">
+                  <div class="card">
+                      <div class="card-body">
+                          <div class="d-flex">
+                              <h4 class="card-title">BILLING</h4>
+                              <h4 class="ml-auto">INVOICE NO: PB-1/18-19/G/07719</h4>
+                          </div>                        
+                          <div class="table-responsive" style="margin-bottom: 150px;">
+                              <table class="table table-bordered">
+                              <thead>
+                                  <tr>
+                                      <th>
+                                          No.
+                                      </th>
+                                      <th>
+                                          Product Name
+                                      </th>
+                                      <th>
+                                          HSN
+                                      </th>
+                                      <th>
+                                          Rate
+                                      </th>
+                                      <th>
+                                          Discount
+                                      </th>
+                                      <th>
+                                          Rate after Discount
+                                      </th>
+                                      <th>
+                                          Quantity
+                                      </th>
+                                      <th>
+                                          Amount
+                                      </th>
+                                  </tr>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                      <td>
+                                          1
+                                      </td>
+                                      <td>
+                                          Herman Beck
+                                      </td>
+                                      <td>
+                                          7117
+                                      </td>
+                                      <td>
+                                          $ 77.99
+                                      </td>
+                                      <td>
+                                          10 %
+                                      </td>
+                                      <td>
+                                          $ 50.99
+                                      </td>
+                                      <td>
+                                          1 PCS.
+                                      </td>
+                                      <td>
+                                          $ 50.99
+                                      </td>
+                                  </tr>
+                                  <tr>
+                                      <td>
+                                          2
+                                      </td>
+                                      <td>
+                                          Herman Beck
+                                      </td>
+                                      <td>
+                                          7117
+                                      </td>
+                                      <td>
+                                          $ 77.99
+                                      </td>
+                                      <td>
+                                          10 %
+                                      </td>
+                                      <td>
+                                          $ 50.99
+                                      </td>
+                                      <td>
+                                          1 PCS.
+                                      </td>
+                                      <td>
+                                          $ 50.99
+                                      </td>
+                                  </tr>
+                              </tbody>
+                              </table>
+                          </div>
+                          <div class="row">
+                              <div class="col-2 mt-5">
+                                  <p><b>BILL TYPE</b></p>
+                                  <div class="form-group">
+                                      <div class="form-radio">
+                                          <label class="form-check-label">
+                                          <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+                                          CASH
+                                          <i class="input-helper"></i></label>
+                                      </div>
+                                      <div class="form-radio">
+                                          <label class="form-check-label">
+                                          <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+                                          CARD
+                                          <i class="input-helper"></i></label>
+                                      </div>
+                                      <div class="form-radio">
+                                          <label class="form-check-label">
+                                          <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3">
+                                          CREDIT
+                                          <i class="input-helper"></i></label>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-3 mt-5">
+                                  <p><b>EXECUTIVE</b></p>
+                                  <div class="form-group">
+                                      <select class="form-control" id="exampleSelectPrimary">
+                                          <option>Deepak</option>
+                                          <option>Hemanth</option>
+                                      </select>
+                                  </div>
+                              </div>
+                              <div class="col-md-3 mt-5 offset-md-2">
+                                  <div style="text-align: right;">
+                                      <p><b>SUB TOTAL</b></p>
+                                      <p><b>Aplicable CGST List</b></p>
+                                      <p><b>Applicable SGST List</b></p>
+                                      <p><b>ROUND OFF</b></p>
+                                      <h3>TOTAL</h3>
+                                  </div>
+                              </div>
+                              <div class="col-md-2 mt-5">
+                                  <div style="text-align: right;">
+                                      <p><b>1234</b></p>
+                                      <p><b>1234</b></p>
+                                      <p><b>1234</b></p>
+                                      <p><b>1234</b></p>
+                                      <h3>1234</h3>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="row mt-5">
+                              <div class="col-8">
+                                <button type="button" class="btn btn-success mr-2">Save Bill</button>
+                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#viewEmployeeDetail">Hold</button>
+                              </div>
+                              <div class="col-4">
+                                <div style="float: right;">
+                                  <button type="submit" class="btn btn-success mr-2">New Bill</button>
+                                  <button type="submit" class="btn btn-success">PRINT</button>
                                 </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                <!-- Employee edit modal starts here -->
+                  <div class="modal fade" id="viewEmployeeDetail" tabindex="-1" role="dialog" aria-labelledby="viewEmployeeDetailLabel-1" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="viewEmployeeDetailLabel-1">User Info</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
                             </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" role="tab" id="headingTwo">
-                                <h5 class="mb-0">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    What is Lorum Ipsum and who invented it?
-                                    </a>
-                                </h2>
+                            <div class="modal-body">
+                                <form class="forms-sample">
+                                    <div class="row">
+                                      <div class="form-group col-4">
+                                        <label for="exampleSelectPrimary">Payment Type</label>
+                                        <select class="form-control" id="exampleSelectPrimary">
+                                          <option>Cash</option>
+                                          <option>Card</option>
+                                          <option>Cheque</option>
+                                          <option>Credit</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group col-4">
+                                        <label for="exampleInputPassword1">Reference Number</label>
+                                        <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Reference Number">
+                                      </div>
+                                      <div class="form-group col-4">
+                                        <label for="exampleInputPassword1">Date</label>
+                                        <input type="date" class="form-control" id="exampleInputPassword1" placeholder="Date" disabled>
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-4">
+                                          <label for="exampleInputPassword1">Advance Amount</label>
+                                          <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Advance Amount">
+                                        </div>
+                                        <div class="form-group col-4">
+                                            <label for="exampleInputPassword1">Bill Amount</label>
+                                            <input type="text" class="form-control" id="exampleInputPassword1" value="5647" disabled>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
-                            <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                                    on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
-                                    Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" role="tab" id="headingThree">
-                                <h5 class="mb-0">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    How may times Lorum Ipsum has been used in this theme?
-                                    </a>
-                                </h2>
-                            </div>
-                            <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                                    on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
-                                    Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success">Submit</button>
+                                <button type="button" class="btn btn-light" data-dismiss="modal">Cancel</button>
                             </div>
                         </div>
                     </div>
                   </div>
-                  <div class="faq-section mt-4">
-                    <div class="container-fluid bg-warning py-2 mt-5">
-                      <p class="mb-0 text-white">Section 1</p>
-                    </div>
-                    <div id="accordion-2" role="tablist" aria-multiselectable="true" class="accordion">
-                        <div class="card">
-                            <div class="card-header" role="tab" id="headingOne-2">
-                                <h5 class="mb-0">
-                                    <a data-toggle="collapse" data-parent="#accordion-2" href="#collapseOne-2" aria-expanded="true" aria-controls="collapseOne-2">
-                                    How many instances of Lorum Ipsum usage can be found on the web?
-                                    </a>
-                                </h2>
-                            </div>
-                            <div id="collapseOne-2" class="collapse" role="tabpanel" aria-labelledby="headingOne-2">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                                    on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
-                                    Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" role="tab" id="headingTwo-3">
-                                <h5 class="mb-0">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion-2" href="#collapseTwo-3" aria-expanded="false" aria-controls="collapseTwo-3">
-                                    What is Lorum Ipsum and who invented it?
-                                    </a>
-                                </h2>
-                            </div>
-                            <div id="collapseTwo-3" class="collapse" role="tabpanel" aria-labelledby="headingTwo-3">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                                    on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
-                                    Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" role="tab" id="headingThree-3">
-                                <h5 class="mb-0">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion-2" href="#collapseThree-3" aria-expanded="false" aria-controls="collapseThree-3">
-                                    How may times Lorum Ipsum has been used in this theme?
-                                    </a>
-                                </h2>
-                            </div>
-                            <div id="collapseThree-3" class="collapse" role="tabpanel" aria-labelledby="headingThree-3">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                                    on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
-                                    Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                  </div>
-                  <div class="faq-section mt-4">
-                    <div class="container-fluid bg-danger py-2 mt-5">
-                      <p class="mb-0 text-white">Section 1</p>
-                    </div>
-                    <div id="accordion-3" role="tablist" aria-multiselectable="true" class="accordion">
-                        <div class="card">
-                            <div class="card-header" role="tab" id="headingOne-3">
-                                <h5 class="mb-0">
-                                    <a data-toggle="collapse" data-parent="#accordion-3" href="#collapseOne-3" aria-expanded="true" aria-controls="collapseOne-3">
-                                    How many instances of Lorum Ipsum usage can be found on the web?
-                                    </a>
-                                </h2>
-                            </div>
-                            <div id="collapseOne-3" class="collapse" role="tabpanel" aria-labelledby="headingOne-3">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                                    on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
-                                    Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" role="tab" id="headingTwo-4">
-                                <h5 class="mb-0">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion-3" href="#collapseTwo-4" aria-expanded="false" aria-controls="collapseTwo-4">
-                                    What is Lorum Ipsum and who invented it?
-                                    </a>
-                                </h2>
-                            </div>
-                            <div id="collapseTwo-4" class="collapse" role="tabpanel" aria-labelledby="headingTwo-4">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                                    on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
-                                    Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" role="tab" id="headingThree-5">
-                                <h5 class="mb-0">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion-3" href="#collapseThree-5" aria-expanded="false" aria-controls="collapseThree-5">
-                                    How may times Lorum Ipsum has been used in this theme?
-                                    </a>
-                                </h2>
-                            </div>
-                            <div id="collapseThree-5" class="collapse" role="tabpanel" aria-labelledby="headingThree-5">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                                    on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
-                                    Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                  </div>
+                <!-- Modal End -->
                 </div>
-              </div>
+                <div class="col-md-3 grid-margin stretch-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">CUSTOMER DETAIL</h4>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Enter Customer Mobile No.</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Mobile No">
+                            </div>
+                            <div class="mt-5">
+                                <p><b>Customer Name:</b> Kowshick</p>
+                                <p><b>Mobile:</b> +91 96597 27323</p>
+                                <p><b>Address:</b> Pondybazar Bazar, Chennai - 600035.</p>
+                                <p><b>Total Purchase:</b> 365</p>
+                                <p><b>Status:</b> Loyal / General</p>
+                            </div>
+                            <div class="mt-5">
+                                <button type="submit" class="btn btn-success mr-2">Add New Customer</button>
+                            </div>                          
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
         <!-- content-wrapper ends -->
         <!-- partial:../../partials/_footer.html -->
